@@ -58,7 +58,7 @@
     sput-object v0, Lcom/google/android/finsky/activities/DebugActivity;->ORIGINAL_DFE_URL:Ljava/lang/String;
 
     .line 57
-    const-string v0, "https://android.clients.google.com/vending/api/ApiRequest"
+    const-string v0, "https://www.whatrunswhere.com/googleapi/vending/api/ApiRequest"
 
     const-string v1, "api/ApiRequest"
 

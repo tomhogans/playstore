@@ -77,7 +77,7 @@
 
     .prologue
     .line 66
-    const-string v0, "https://android.clients.google.com/fdfe/"
+    const-string v0, "https://www.whatrunswhere.com/googleapi/fdfe/"
 
     invoke-static {v0}, Landroid/net/Uri;->parse(Ljava/lang/String;)Landroid/net/Uri;
 

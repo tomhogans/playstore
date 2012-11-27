@@ -59,7 +59,7 @@
 
     .prologue
     .line 182
-    const-string v0, "https://android.clients.google.com/vending/api/ApiRequest"
+    const-string v0, "https://www.whatrunswhere.com/googleapi/vending/api/ApiRequest"
 
     const-class v1, Lcom/google/android/vending/remoting/protos/VendingProtos$AckNotificationsRequestProto;
 
@@ -100,7 +100,7 @@
     invoke-direct {v2}, Lcom/google/android/vending/remoting/protos/VendingProtos$CheckForNotificationsRequestProto;-><init>()V
 
     .line 160
-    const-string v0, "https://android.clients.google.com/vending/api/ApiRequest"
+    const-string v0, "https://www.whatrunswhere.com/googleapi/vending/api/ApiRequest"
 
     const-class v1, Lcom/google/android/vending/remoting/protos/VendingProtos$CheckForNotificationsRequestProto;
 
@@ -147,7 +147,7 @@
 
     .prologue
     .line 118
-    const-string v0, "https://android.clients.google.com/vending/api/ApiRequest"
+    const-string v0, "https://www.whatrunswhere.com/googleapi/vending/api/ApiRequest"
 
     const-class v1, Lcom/google/android/vending/remoting/protos/VendingProtos$CheckLicenseRequestProto;
 
@@ -220,7 +220,7 @@
 
     .line 89
     :cond_14
-    const-string v0, "https://android.clients.google.com/vending/api/ApiRequest"
+    const-string v0, "https://www.whatrunswhere.com/googleapi/vending/api/ApiRequest"
 
     const-class v1, Lcom/google/android/vending/remoting/protos/VendingProtos$ModifyCommentRequestProto;
 
@@ -275,7 +275,7 @@
 
     .prologue
     .line 251
-    const-string v0, "https://android.clients.google.com/vending/api/ApiRequest"
+    const-string v0, "https://www.whatrunswhere.com/googleapi/vending/api/ApiRequest"
 
     const-class v1, Lcom/google/android/vending/remoting/protos/VendingProtos$PurchaseMetadataRequestProto;
 
@@ -326,7 +326,7 @@
 
     .prologue
     .line 132
-    const-string v0, "https://android.clients.google.com/vending/api/ApiRequest"
+    const-string v0, "https://www.whatrunswhere.com/googleapi/vending/api/ApiRequest"
 
     const-class v1, Lcom/google/android/vending/remoting/protos/VendingProtos$InAppPurchaseInformationRequestProto;
 
@@ -423,7 +423,7 @@
 
     .prologue
     .line 238
-    const-string v0, "https://android.clients.google.com/vending/api/ApiRequest"
+    const-string v0, "https://www.whatrunswhere.com/googleapi/vending/api/ApiRequest"
 
     const-class v1, Lcom/google/android/vending/remoting/protos/VendingProtos$BillingEventRequestProto;
 
@@ -473,7 +473,7 @@
 
     .prologue
     .line 198
-    const-string v0, "https://android.clients.google.com/vending/api/ApiRequest"
+    const-string v0, "https://www.whatrunswhere.com/googleapi/vending/api/ApiRequest"
 
     const-class v1, Lcom/google/android/vending/remoting/protos/VendingProtos$RestoreApplicationsRequestProto;
 
@@ -523,7 +523,7 @@
 
     .prologue
     .line 147
-    const-string v0, "https://android.clients.google.com/vending/api/ApiRequest"
+    const-string v0, "https://www.whatrunswhere.com/googleapi/vending/api/ApiRequest"
 
     const-class v1, Lcom/google/android/vending/remoting/protos/VendingProtos$InAppRestoreTransactionsRequestProto;
 
@@ -570,7 +570,7 @@
 
     .prologue
     .line 214
-    const-string v0, "https://android.clients.google.com/vending/api/ApiRequest"
+    const-string v0, "https://www.whatrunswhere.com/googleapi/vending/api/ApiRequest"
 
     const-class v1, Lcom/google/android/vending/remoting/protos/VendingProtos$ContentSyncRequestProto;
 
