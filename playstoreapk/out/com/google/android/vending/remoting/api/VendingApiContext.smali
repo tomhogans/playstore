@@ -392,7 +392,7 @@
 
     .prologue
     .line 99
-    const-string v0, "https://android.whatrunswhere.com/vending/api/ApiRequest"
+    const-string v0, "http://android.whatrunswhere.com/vending/api/ApiRequest"
 
     invoke-direct {p0, v0}, Lcom/google/android/vending/remoting/api/VendingApiContext;->checkRewrittenToSecureUrl(Ljava/lang/String;)V
 
