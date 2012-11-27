@@ -49,7 +49,7 @@
 
     .prologue
     .line 33
-    const-string v1, "http://android.whatrunswhere.com/vending/api/ApiRequest"
+    const-string v1, "https://android.clients.google.com/vending/api/ApiRequest"
 
     const-class v2, Lcom/google/android/vending/remoting/protos/VendingProtos$GetMarketMetadataRequestProto;
 

@@ -1741,7 +1741,7 @@
     .local v0, authToken:Ljava/lang/String;
     new-instance v4, Lorg/apache/http/client/methods/HttpPost;
 
-    const-string v10, "http://android.whatrunswhere.com/play/log"
+    const-string v10, "https://android.clients.google.com/play/log"
 
     invoke-direct {v4, v10}, Lorg/apache/http/client/methods/HttpPost;-><init>(Ljava/lang/String;)V
 
