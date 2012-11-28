@@ -7,6 +7,6 @@ echo "pushing login apk..."
 adb push GoogleLoginService-signed.apk /system/app/.
 echo "pushing framework apk..."
 adb push GoogleServicesFramework-signed.apk /system/app/.
-echo "pushing vending apk..."
+echo "pushing phonesky (vending on <=4.1) apk..."
 adb push Phonesky-signed.apk /system/app/.
 echo "done"
