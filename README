@@ -1,0 +1,47 @@
+It's easier to just start with a fresh AVD (emulator instance).
+
+`android create avd -n play -t 1 --abi x86`
+
+Then you can start the emulator with the `start-emu` script.
+
+The play store cannot be run in the emulator without specific dependencies:
+
+GoogleLoginService
+GoogleServicesFramework
+Phonesky
+
+The APKs in this repo are those service APKs from /system/app that have had
+their Google signatures wiped and been resigned with the provided debug key.
+
+Before installing the play store (modified or otherwise), you must copy these
+modified files over to the emulator:
+
+`./push-prereqs` will set permissions and copy the files over.
+
+To start working on the play store APK:
+
+`unzip com.android.vending_3.9.16.apk -d play_apk`
+
+In the play_apk directory, run:
+
+`rm -rf META-INF` to destroy the Google signature
+`baksmali classes.dex` to decompile the Dalvik bytecode to smali
+
+The smali files will be in the `out` directory.  Edit the files as
+needed and then:
+
+`smali -o classes.dex out` to overwrite classes.dex with the reassembled
+Dalvik bytecode from the modified smali files.
+
+`rm -rf out` to remove the smali files so you can zip up the APK.
+
+`zip -r play_apk.apk *`
+
+Move the play_apk.apk file up one directory and sign it with the debug key:
+
+`./sign-apk-debug-key play_apk`
+
+which will create play_apk-signed.apk. 
+
+`adb install -r play_apk-signed.apk` to install the modified play store
+APK in the emulator.
