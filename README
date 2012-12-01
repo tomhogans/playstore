@@ -45,3 +45,6 @@ which will create play_apk-signed.apk.
 
 `adb install -r play_apk-signed.apk` to install the modified play store
 APK in the emulator.
+
+
+For decompiling to java source, use dex2jar and jd-gui.
